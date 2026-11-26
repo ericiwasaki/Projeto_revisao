@@ -6,7 +6,7 @@
 	<title>Mini Projeto</title>
 
 	<link rel="stylesheet" href="./style.css">
-	<script src="./main.js"></script>
+	
 </head>
 <body>
 	<div class="titulo">
@@ -22,19 +22,19 @@
 
 	<div class="log">
 		<div class="login-container">
-			<h2>Login</h2>
+			<h2 id="login">Login</h2>
 				<div class="login-item">
+					<form>
+						<div class="campo">
+							<label for="email" id="email">Email:</label>
+							<input type="email" 	placeholder="Digite seu E-mail" id="email">
+						</div>
 
-					<div class="campo">
-						<label>Email:</label>
-						<input type="email" placeholder="Digite seu E-mail">
-					</div>
-
-					<div class="campo">
-						<label>Senha:</label>
-						<input type="password" , placeholder="Digitar sua senha">
-					</div>
-
+						<div class="campo">
+							<label for="password">Senha:</label>
+							<input type="password" , 	placeholder="Digitar sua senha" id="password">
+						</div>
+					</form>
 				</div>
 
 
@@ -48,5 +48,6 @@
 		</div>
 	</div>
 
+	<script src="./main.js"></script>
 </body>
 </html>

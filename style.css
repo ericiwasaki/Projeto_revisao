@@ -60,10 +60,11 @@ body{
 	border-radius: 10px;
 	margin-left: 500px;
 	margin-right: 500px;
-	height: 400px;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 450px;
+	
 
-
-	box-shadow: 60px;
 	background: beige;	
 }
 
@@ -78,7 +79,10 @@ body{
 	justify-content: center;
 	align-items: center;
 
+	font-size: 1rem;
+
 	padding-top: 20px;
+	margin-bottom: 20px;
 	margin-top: 50px;
 
 	
@@ -100,6 +104,7 @@ body{
 
 	background-color: rgb(165, 160, 160);
 	padding: 10px;
+	margin-bottom: 20px;
 	border-radius: 10px;
 }
 
