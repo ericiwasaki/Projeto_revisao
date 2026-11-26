@@ -1,0 +1,149 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	min-height: 100vh;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* Parte título */
+.titulo-container{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	letter-spacing: 1.5px;
+	
+
+	padding-top: 90px;
+	padding-bottom: 90px;
+	
+
+	background-color: black;
+	color: white;
+}
+
+.titulo-item{
+	position: absolute;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+
+	
+	gap: 20px;
+	top: 10px;
+	right: 20px;
+}
+
+.titulo-item p{
+	padding: 4px;
+	border-radius: 4px;
+
+	background-color: gray;
+}
+
+.titulo-item p:hover{
+	cursor: pointer;
+	background: red;
+}
+
+.login-container{
+	border-radius: 10px;
+	margin-left: 500px;
+	margin-right: 500px;
+	height: 400px;
+
+
+	box-shadow: 60px;
+	background: beige;	
+}
+
+
+
+
+.login-container h2{
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	padding-top: 20px;
+	margin-top: 50px;
+
+	
+}
+
+.login-item {
+
+	display: flex;
+	flex-direction: column;
+
+	gap: 15px;
+}
+
+.campo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+
+	background-color: rgb(165, 160, 160);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.campo input {
+    width: 100%;
+    height: 35px;
+
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.enviar{
+	display: flex;
+	justify-content: center;
+
+	padding-top: 70px;
+}
+
+.enviar input{
+	display: flex;
+	font-size: 1.5em;
+
+
+	border-radius: 10px;
+	width: 400px;
+	height: 40px;
+
+	background: black;
+	color: white;
+
+	cursor: pointer;
+}
+
+
+
+.enviar input:hover{
+	background: rgb(0, 0, 243);
+}
+
+.cadastro{
+	display: flex;
+	justify-content: center;
+
+	margin-top: 90px;
+	color: blue;
+}
