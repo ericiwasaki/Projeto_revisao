@@ -4,12 +4,83 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cadastro</title>
+
+	<link rel="stylesheet" href="">
 	
 </head>
 <body>
-	<h1>CADASTRO</h1>
+	<div class="cadastro">
+		<h1>Cadastro</h1>
+		<div class="msg"></div>
+	</div>
+
+	<form action="">
+
+		<!-- Campo para nome -->
+		<div class="campo">
+			<label for="Name">Nome: </label>
+			<input type="text" placeholder="Colcoar seu nome" required id="name">
+		</div>
+
+
+		<!-- campo para gênero -->
+		<input type="radio" name="genero" id="masculio" value="masculio">
+		<label for="masculio">Masculino</label>
+
+		<input type="radio" name="genero" id="masculio" value="feminona">
+		<label for="feminino">feminino</label>
+
+		<input type="radio" name="genero" id="masculio" value="outro">
+		<label for="other">Outro</label>
+
+		  <!-- Campo para email -->
+		<div class="campo">
+			<label for="email">E-mail </label>
+			<input type="email" placeholder="Colocar seu email" required id="email">
+		</div>
+
+		<!-- campo para data -->
+		<div class="campo">
+			<label for="date">data de nascimento</label>
+			<input type="date" required id="date">
+		</div>
+
+		<!-- Campos para senha e varidar a senha -->
+		<div class="campo">
+			<label for="password">Senha </label>
+			<input type="password" placeholder="Criar senha" required minlength="6" id="password">
+			<ul>
+				<li>Criar senha no mínimo 6 digitos ou mais</li>
+				<li>Usar pelo menos uma letra maiúsculas</li>
+				<li>Usar .  , : </li>
+				<li>Usar os números</li>
+			</ul>
+		</div>
+
+		<div class="campo">
+			<label for="veriSenha">Confirmar senha</label>
+			<input type="password" required id="veriSenha">
+		</div>
+
+		<!-- campo para telefone -->
+		<div class="campo">
+			<label for="tel">Seu telefone</label>
+			<input type="tel" required id="tel">
+		</div>
+
+		
+		<div class="campo">
+			<input type="submit" id="enviar" >
+		</div>
+
+		<div class="campo">
+			<input type="reset" id="cancelar"  value="cancelar">
+		</div>
+		
+	</form>
+
 	
 
-	<script src="./main.js"></script>
+	<script src="cadastro.js"></script>
 </body>
 </html>
